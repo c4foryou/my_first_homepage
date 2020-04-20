@@ -4,22 +4,29 @@
         <meta charset="utf-8">
         <title>CSS descendant selectors</title>
         <style>
-          h1 {font-size:100px;
-              margine: 10px;
-              border:1px;
-              padding: 1px
-              font-style: headline;}
-          body {}
-            p {font-style: headline;}
+          body {position: absolute; top: 35%; height: 240px; margin-top: -100px; }
+          h1 {
+              margine: 1px 1px 1px 10px;
+              padding: 1px 1px 1px 100px;
+              font-size:100px;
+              font-family: "headline r";
+             }
+          #lastname {color:salmon;}
+            p {font-style: headline;
+               margine: 20px;}
         </style>
     </head>
 
     <body>
-      <h1> Kook Han
+      <h1> Kook <span id="lastname">Han</span>
       </h1>
       <h2> +82-10-9957-6110 kxh72410@ucmo.edu
       </h2>
       <p>
+              <img width="37px" src="https://cdn.pixabay.com/photo/2013/07/13/10/30/icon-157358_960_720.png">
+          <a href="c4foryou@naver.com"><img width="50px" src="https://cdn.pixabay.com/photo/2016/06/13/17/30/mail-1454731_960_720.png">
+        </a>
+          <a href="https://facebook.com/kok6110"><img width="50px" src="https://cdn.pixabay.com/photo/2017/06/22/06/22/facebook-2429746_960_720.png">    
       </p>
     </body>
 </html>
