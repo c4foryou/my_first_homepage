@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>CSS descendant selectors</title>
         <style>
-          body {position: absolute; top: 40%; height: 240px; margin-top: -100px; }
+          body {position: absolute; top: 45%; height: 240px; margin-top: -100px; }
 
           h1 {margine: 1px 1px 1px 10px;
               padding: 1px 1px 1px 30px;
@@ -29,16 +29,16 @@
 }
           div.experience {font-family: "times new roman"; 
 }
-           p.experience {font-family: "times new roman"; 
+           p.experience {font-family: "times new roman"; padding-left:10px; 
 }
-          li {margine-left:10px; padding left:10px;}
+          li {padding-left:25px;}
            
         </style>
     </head>
 
     <body>
       <h1> Kook <span id="lastname">Han</span><br>
-          <span id="contacts">+82-10-9957-6110 kxh72410@ucmo.edu</span>
+          <span id="contacts">010-9957-6110 kxh72410@ucmo.edu</span>
       </h1>
       <div class="contacticons">
       <p>
@@ -52,30 +52,32 @@
       <h2 class="experience">Working Experience
         
         </h2>
-      <p class="experience"> 
-’19.4月~’20.1月 삼성전자 영업팀
- <br>
+      <table class="experience">
+        <tbody>
+          <tr style="background-color: blue">
+            <td>’19.4月~’20.1月 삼성전자 영업팀</td></tr>
+          <tr><td>
         <ui class='lists'>
         <li>	브라질/미국 서부 업체 영업 담당</li>
-</ui>
-Samsung Electronics, Hwaseong-si                                   February 2016 – April 2019
-Financial Management Team, Professional
-•	Reduced by 17% of annual budget plans in 2018 through analyzing historic trends and finding unnecessary budget requests from other department
-•	Devised an improved inter-divisional material cost allocation formula with increased forecasting accuracy
-•	Analyzed ROI of sales and marketing activities to improve profitability of each activity
-•	Took an active role in balancing PSI (Production, Sales, Inventory) to optimize operational efficiency
-•	Reported PSI strategies to C-Level executives in Memory business and higher staff organizations
+</ui></td></tr>
+          
+                    <tr>
+            <td>’19.4月~’20.1月 삼성전자 재무팀</td></tr>
+          <tr><td>
+        <ui class='lists'>
+        <li>	원가결산, 예산, 재고 업무 수행</li>
+</ui></td></tr>
+          
+                    <tr>
+            <td>’13.12~’14.2月 Deutsche Bank 인턴  </td></tr>
+          
+                    <tr>
+            <td>’13.8~’13.11月 AMCHAM Korea 인턴 </td></tr>
+          
+          
+        </tbody>
+        </table>
 
-Deutsche Bank AG, Seoul	December 2013 – February 2014
-Trade Finance Department, Intern
-•	Analyzed and researched existing clients’ financial data and recent transaction information including credit ratings with Deutsche Bank AG, Seoul to prepare for client meetings
-
-The American Chamber of Commerce in Korea, Seoul	August 2013 – November 2013
-Communications Department, Intern
-•	Contributed to various publications including AMCHAM’s quarterly magazine and official press releases
-
-      </p>
-      </div>
 
         
     </body>
